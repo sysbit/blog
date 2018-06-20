@@ -18,7 +18,7 @@ theme: jekyll-theme-so-simple
 locale: en-US
 title: "Sysbit Nigeria Blog"
 description: ""
-baseurl: # the subpath of your site, e.g. "/blog"
+baseurl: '' # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/img/sysbit-nigeria.png"
 date_format: "%B %-d, %Y"
@@ -71,6 +71,7 @@ tag_archive_path: "/tags/#"
 #   - vendor/ruby/
 
 plugins:
+  - jekyll-pwa-plugin
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
@@ -96,7 +97,7 @@ author:
     - title:
       url:
       icon:
-
+      
 # Footer Links
 footer_links:
   - title: Feed
@@ -114,3 +115,22 @@ footer_links:
   - title: Facebook
     url: https://facebook.com/sysbitnigeria
     icon: fab fa-facebook-square
+    
+ #pwa config 
+pwa:
+  sw_filename: service-worker.js # Required
+  dest_js_directory: assets/js # Required
+  cache_name: my-cache # Optional
+  precache_recent_posts_num: 5 # Optional
+  precache_glob_directory: / # Optional
+  precache_glob_patterns: # Optional
+    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
+    - index.html
+  precache_glob_ignores: # Optional
+    - sw-register.js
+    - "fonts/**/*"
+  runtime_cache: # Optional
+    - route: /^api\/getdata/
+      strategy: networkFirst
+    - route: "'/api/pic'"
+      strategy: cacheFirst
