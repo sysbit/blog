@@ -1,12 +1,12 @@
 {
-  "name": "Sysbit Nigeria",
-  "short_name": "Sysbit",
-  "description": "Sysbit Nigeria Blog",
+  "name": "Sysbit Nigeria Blog",
+  "short_name": "Sysbit Nigeria Blog",
+  "description": "A simply readable blog",
   "lang": "en-US",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#fff",
+  "background_color": "#fff",
   "icons": [
     {
       "src": "img/icons/favicon-16x16.png",
@@ -39,5 +39,4 @@
       "type": "image/png"
     }
   ],
-  "background_color": "#fff"
 }
