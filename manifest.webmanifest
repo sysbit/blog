@@ -1,12 +1,6 @@
 {
   "name": "Sysbit Nigeria Blog",
   "short_name": "Sysbit Nigeria Blog",
-  "description": "A simply readable blog",
-  "lang": "en-US",
-  "start_url": ".",
-  "display": "standalone",
-  "orientation": "any",
-  "background_color": "#fff",
   "icons": [
     {
       "src": "img/icons/favicon-16x16.png",
@@ -24,7 +18,7 @@
       "type": "image/png"
     },
     {
-      "src": "img/icons/apple-touch--icon.png",
+      "src": "img/icons/apple-touch-icon.png",
       "sizes": "180x180",
       "type": "image/png"
     },
@@ -34,9 +28,23 @@
       "type": "image/png"
     },
     {
-      "src": "img/icons/android-icon-256x256.png",
+      "src": "img/icons/android-chrome-256x256.png",
       "sizes": "256x256",
+      "type": "image/png"
+    },
+     {
+      "src": "img/icons/sysbit-ng.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],
+
+  "description": "A simply readable blog",
+  "lang": "en-US",
+  "start_url": "/?utm_source=homescreen",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fff",
+  "theme_color": "#317EFB"
+
 }
