@@ -17,7 +17,7 @@ theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 locale: en-US
 title: "Sysbit Nigeria Blog"
-description: ""
+description: "A simple blog built to help individuals and businesses achieve greatness"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/img/sysbit-nigeria.png"
