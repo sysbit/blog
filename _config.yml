@@ -73,7 +73,6 @@ tag_archive_path: "/tags/#"
 #   - vendor/ruby/
 
 plugins:
-  - jekyll-pwa-plugin
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
@@ -118,21 +117,3 @@ footer_links:
     url: https://facebook.com/sysbitnigeria
     icon: fab fa-facebook-square
     
- #pwa config 
-pwa:
-  sw_filename: service-worker.js # Required
-  dest_js_directory: assets/js # Required
-  cache_name: my-cache # Optional
-  precache_recent_posts_num: 5 # Optional
-  precache_glob_directory: / # Optional
-  precache_glob_patterns: # Optional
-    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
-    - index.html
-  precache_glob_ignores: # Optional
-    - sw-register.js
-    - "fonts/**/*"
-  runtime_cache: # Optional
-    - route: /^api\/getdata/
-      strategy: networkFirst
-    - route: "'/api/pic'"
-      strategy: cacheFirst

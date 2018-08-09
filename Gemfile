@@ -28,7 +28,6 @@ group :jekyll_plugins do
   gem "jemoji", "~> 0.8"
   gem "bundler", "~> 1.12"
   gem "rake", "~> 10.0"
-  gem "jekyll-pwa-plugin"
  end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
