@@ -18,14 +18,12 @@ theme: jekyll-theme-so-simple
 locale: en-US
 title: "Sysbit Nigeria Blog"
 description: "A simple blog built to help individuals and businesses achieve greatness"
-baseurl: # the subpath of your site, e.g. "/blog"
-description: ""
 baseurl: '' # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://blog.sysbitnigeria.com.ng" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/img/sysbit-nigeria.png"
 date_format: "%B %-d, %Y"
-read_time: # reading time estimates, e.g. true
-words_per_minute: # 200
+read_time: true # reading time estimates, e.g. true
+words_per_minute: 200 # 200
 mathjax: # MathJax equations, e.g. true
 google_fonts:
   - name: "Source Sans Pro"
